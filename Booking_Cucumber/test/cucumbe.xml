@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="127.021565">
+<testcase classname="Testing Booking room functionality of booking site." name="Room Booking" time="127.021565">
+<system-out><![CDATA[Given User is on the website................................................passed
+When Place entered..........................................................passed
+And Selected the  date......................................................passed
+And Selected the customer details...........................................passed
+And Clicked on search button................................................passed
+Then User should be redirected to propertiesfound page......................passed
+When Filters are selected...................................................passed
+And Clicked on the see availability.........................................passed
+Then Reserve window should open.............................................passed
+When Clicked on reserve button..............................................passed
+And Selected number of rooms................................................passed
+And Clicked on I will reserve button........................................passed
+Then User should get redirected to fill details page........................passed
+When Firstname entered......................................................passed
+And Lastname entered........................................................passed
+And Email entered...........................................................passed
+And Confirm email entered...................................................passed
+And Comments entered........................................................passed
+And Selected arrival time...................................................passed
+And Clicked on next.........................................................passed
+Then Last enter details page opens..........................................passed
+When Selected country.......................................................passed
+And Entered phoneno.........................................................passed
+And Entered card............................................................passed
+Then process completed......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
